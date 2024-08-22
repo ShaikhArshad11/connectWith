@@ -36,27 +36,11 @@ Ensure you have the following installed on your machine:
 
 ## API Example
 
-To fetch all the existing posts, use the following API call:
-
-fetch('https://dummyjson.com/posts')
-  .then(res => res.json())
-  .then(console.log;
+To fetch all the existing posts, use the following API call: ('https://dummyjson.com/posts')
 
 ## API Example
 
-To add a new post from the user, use the following API call:
-
-fetch('https://dummyjson.com/posts/add', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({
-    title: 'I am in love with someone.',
-    userId: 5,
-    /* other post data */
-  })
-})
-.then(res => res.json())
-.then(console.log);
+To add a new post from the user, use the following API call: ('https://dummyjson.com/posts/add')
 
 ### Clone the Repository
 
