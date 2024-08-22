@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+}
+
+.appContainer{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+}
+
+.sidebar{
+    min-height: 660px;
+}
+
+.signUp{
+    background-color: #0D6eFD;
+    border: none;
+    color: white;
+}
+
+.signUp:hover{
+    background-color: white;
+    color: black;
+}
+
+.postCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+    margin-top: 2rem;
+    background-color: #303438;
+    color: white;
+}
+
+.postBody{
+    width: 85%;
+}
+
+.create-post{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3rem;
+}
+
+.imgInput{
+    display: flex;
+}
+
+.message{
+    margin: 6rem 0;
+}
+
+.spinner{
+    margin-top: 10rem;
+}
