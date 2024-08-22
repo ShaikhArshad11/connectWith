@@ -1,8 +1,40 @@
-# React + Vite
+# connectWith
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**connectWith** is a status uploading web application built using ReactJS, Vite, Bootstrap, and DummyJSON APIs. The application allows users to create and view status updates with a simple and intuitive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Home Page:** Displays a list of status updates, including those generated automatically via an API from DummyJSON.
+- **Create Post Page:** Allows users to create a new post by entering a userId, title, and status (caption). New posts are created using a separate API from DummyJSON.
+
+## Tech Stack
+
+- **Frontend:**
+  - ReactJS
+  - Vite
+  - Bootstrap
+
+- **Backend/API:**
+  - DummyJSON (for auto-generated and user-created posts)
+
+## Installation
+
+To get a local copy of the project up and running, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+- Node.js
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/connectWith.git
+cd connectWith
+
+## Acknowledgements
+
+- [DummyJSON](https://dummyjson.com) for providing the API used in this project.
+- [ReactJS](https://reactjs.org)
+- [Vite](https://vitejs.dev)
+- [Bootstrap](https://getbootstrap.com)
