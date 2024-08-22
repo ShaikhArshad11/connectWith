@@ -2,6 +2,7 @@
 
 **connectWith** is a status uploading web application built using ReactJS, Vite, Bootstrap, and DummyJSON APIs. The application allows users to create and view status updates with a simple and intuitive interface.
 ![Screenshot of connectWith](./images/home.png)
+![Screenshot of connectWith](./images/createPost.png)
 
 ## Features
 
