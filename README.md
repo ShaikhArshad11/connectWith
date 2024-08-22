@@ -25,12 +25,7 @@ To get a local copy of the project up and running, follow these steps:
 
 Ensure you have the following installed on your machine:
 - Node.js
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/connectWith.git
-cd connectWith
+- npm or yarn
 
 ## Acknowledgements
 
@@ -38,3 +33,10 @@ cd connectWith
 - [ReactJS](https://reactjs.org)
 - [Vite](https://vitejs.dev)
 - [Bootstrap](https://getbootstrap.com)
+
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/connectWith.git
+cd connectWith
